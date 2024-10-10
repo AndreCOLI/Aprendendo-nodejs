@@ -3,6 +3,6 @@ import { app } from './app'
 import { env } from '../env'
 
 
-app.listen({port: 10000}).then(()=>{
+app.listen({port: 3333}).then(()=>{
     console.log('servidor http rodando')
 })
